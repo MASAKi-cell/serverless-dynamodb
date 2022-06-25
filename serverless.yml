@@ -29,6 +29,7 @@ custom:
     start:
       inMemory: true
       migrate: true
+      seed: [ ./migrations/user.json ]
 
 resources:
   Resources:
